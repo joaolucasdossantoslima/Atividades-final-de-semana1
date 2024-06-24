@@ -27,7 +27,7 @@ li{
     flex-direction: row;
     padding: 3px;
     border-radius: 20px;
-    background-color: rgb(141, 141, 141);
+    background-color: rgb(178, 178, 178);
     color: rgb(96, 96, 255);
     cursor: pointer;
 }
@@ -40,6 +40,7 @@ main{
     align-items: center;
     height: 500px;
     gap: 20px;
+    position: relative;
 }
 .card{
     background-color: rgb(255, 162, 55);
@@ -101,7 +102,7 @@ footer{
     background-color: rgb(43, 42, 42);
     display: flex;
     height: 250px;
-    align-items: center;    
+    align-items: center;  
 }
 form{
     margin-left: 50px;
@@ -133,7 +134,7 @@ label{
     flex-direction: column;
     margin-right: 20px;
     margin-left: auto;
-    color: rgb(255, 255, 255);
+    color: rgb(96, 96, 255);
 }
 main{
     background-image: url("https://online-learning-college.com/wp-content/uploads/2022/05/Classifying-stars-by-colour.jpg");
@@ -155,7 +156,20 @@ span{
 }
 .prom{
     position: absolute;
-    top: 15%;
+    top: 10%;
     color: rgb(101, 155, 255);
     font-size: 40px;
+}
+.banner{
+    height: 450px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(37, 35, 73);
+}
+.imbanner{
+    height: 300px;
+    object-fit: cover;
 }

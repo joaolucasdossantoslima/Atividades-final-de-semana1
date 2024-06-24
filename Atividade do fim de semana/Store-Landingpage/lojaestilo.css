@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    background-color: rgb(43, 42, 42);
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.Titulo{
+    color: rgb(96, 96, 255);
+    font-size: 40px;
+    margin-right: 50px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+li{
+    font-size: 26px;
+    padding: 5px;
+    flex-direction: row;
+    padding: 3px;
+    border-radius: 20px;
+    background-color: rgb(141, 141, 141);
+    color: rgb(96, 96, 255);
+    cursor: pointer;
+}
+.ln:hover{
+    background-color: white;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    gap: 20px;
+}
+.card{
+    background-color: rgb(255, 162, 55);
+    width: 180px;
+    height: 280px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px black;
+}
+.card img{
+    width: 60%;
+    height: 150px;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.card div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    height: 40%;
+}
+.produto-nome{
+    font-size: 1.2rem;
+}
+.qualidades{
+    font-size: 0.9rem;
+}
+.bcompra{
+    background-color: red;
+    color: yellow;
+    height: 30px;
+    padding: 4px;
+    width: 70%;
+    border-radius: 30px;
+}
+.produtos{
+    width: 200px;
+    height: 200px;
+}
+.lista-coisas{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,200px 200px 200px 200px);
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 30px;
+    background-color: gray;
+    display: 200px;
+}
+.coisas-items{
+    padding: 0;
+    position: relative;
+    cursor: auto;
+    background: none;
+
+}
+footer{
+    background-color: rgb(43, 42, 42);
+    display: flex;
+    height: 250px;
+    align-items: center;    
+}
+form{
+    margin-left: 50px;
+    color: rgb(96, 96, 255);
+}
+label{
+    display: block
+}
+.coment{
+    height: 20px;
+    width: 400px;
+    border-radius: 5px;
+    border: 1px solid;
+    flex-wrap: wrap;
+}
+.mail{
+    width: 400px;
+    border-radius: 5px;
+    border: 1px solid;
+    height: 20px;
+}
+.env{
+    display: block;
+    margin-top: 6px;
+    margin-left: 180px;
+}
+.lscont{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-left: auto;
+    color: rgb(255, 255, 255);
+}
+main{
+    background-image: url("https://online-learning-college.com/wp-content/uploads/2022/05/Classifying-stars-by-colour.jpg");
+    background-repeat: no-repeat;
+}
+.b2compra{
+    color: rgb(0, 0, 0);
+    background-color: rgb(101, 155, 255);
+    border-radius: 10px;
+    width: 150px;  
+}
+li:hover{
+    color: white; 
+}
+span{
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+}
+.prom{
+    position: absolute;
+    top: 15%;
+    color: rgb(101, 155, 255);
+    font-size: 40px;
+}

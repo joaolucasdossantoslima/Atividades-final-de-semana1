@@ -88,7 +88,7 @@ main{
     align-items: center;
     padding: 50px;
     gap: 30px;
-    background-color: gray;
+    background-color: rgb(67, 67, 67);
     display: 200px;
 }
 .coisas-items{

@@ -9,13 +9,13 @@
 <body>
     <header>
         <h1 class="Titulo">
-            Loja generica
+            Loja Genérica
         </h1>
         <nav>
             <ul class="lsnvega">
-                <li calss="menu">Promoções</li>
-                <li calss="menu">Produtos</li>
-                <li calss="menu">Contato</li>
+                <a href="#Promoções" class="menu"><li>Promoções</li></a>
+                <a href="#produtos" class="menu"><li>Produtos</li></a>
+                <a href="#contato" class="menu"><li>Contatos</li></a>
             </ul>
         </nav>
     </header>
@@ -57,14 +57,14 @@
     </main>
 
     <ul class="lista-coisas" id=produtos>
-        <li class="coisas-items"><span style="color: rgb(101, 155, 255);">Telescopi Uranum</span><img src="https://m.media-amazon.com/images/I/71HDWBM-GAL._AC_SX679_.jpg" class="produtos"><button class="b2compra">COMPRAR<span>R$399,99</span></button></li>
-        <li class="coisas-items"><span style="color: rgb(101, 155, 255);">CPU GAMER</span><img src="https://m.media-amazon.com/images/I/61iSHmVDCZL._AC_SX679_.jpg" class="produtos"><button class="b2compra">COMPRAR<span>R$2.199.99</span></button></li>
+        <li class="coisas-items"><span style="color: rgb(101, 155, 255);">Telescópio Uranum</span><img src="https://m.media-amazon.com/images/I/71HDWBM-GAL._AC_SX679_.jpg" class="produtos"><button class="b2compra">COMPRAR<span>R$399,99</span></button></li>
+        <li class="coisas-items"><span style="color: rgb(101, 155, 255);">CPU Gamer</span><img src="https://m.media-amazon.com/images/I/61iSHmVDCZL._AC_SX679_.jpg" class="produtos"><button class="b2compra">COMPRAR<span>R$2.199.99</span></button></li>
         <li class="coisas-items"><span style="color: rgb(101, 155, 255);">Bonsai Lego</span><img src="https://m.media-amazon.com/images/I/71pVP0qS4wL.__AC_SX300_SY300_QL70_ML2_.jpg" class="produtos"><button class="b2compra">COMPRAR<span>R$499,99</span></button></li>
-        <li class="coisas-items"><span style="color: rgb(101, 155, 255);">Kit de desenho</span><img src="https://m.media-amazon.com/images/I/71ebdnxZJhS.__AC_SX300_SY300_QL70_ML2_.jpg" class="produtos"><button class="b2compra">COMPRAR<span>R$209,99</span></button></li>
-        <li class="coisas-items"><span style="color: rgb(101, 155, 255);">Monitor gamer</span><img src="https://m.media-amazon.com/images/I/6196cLFF1bL._AC_SX679_.jpg" class="produtos"><button class="b2compra">COMPRAR<span>R$3.799,99</span></button></li>
-        <li class="coisas-items"><span style="color: rgb(101, 155, 255);">chaveiro skibidi</span><img src="https://m.media-amazon.com/images/I/41DDkyxDksL._AC_SY500_.jpg" class="produtos"><button class="b2compra">COMPRAR<span>R$39,99</span></button></li>
-        <li class="coisas-items"><span style="color: rgb(101, 155, 255);">Lavadora de alta pressão</span><img src="https://m.media-amazon.com/images/I/51cUyhTpE3L.__AC_SX300_SY300_QL70_ML2_.jpg" class="produtos"><button class="b2compra">COMPRAR<span>R$599,99</span></button></li>
-        <li class="coisas-items"><span style="color: rgb(101, 155, 255);"> capa de chuva motoquiro</span><img src="https://m.media-amazon.com/images/I/61TxmJuchzL._AC_SX569_.jpg" class="produtos"><button class="b2compra">COMPRAR<span>R$179,99</span></button></li>
+        <li class="coisas-items"><span style="color: rgb(101, 155, 255);">Kit de Desenho</span><img src="https://m.media-amazon.com/images/I/71ebdnxZJhS.__AC_SX300_SY300_QL70_ML2_.jpg" class="produtos"><button class="b2compra">COMPRAR<span>R$209,99</span></button></li>
+        <li class="coisas-items"><span style="color: rgb(101, 155, 255);">Monitor Gamer</span><img src="https://m.media-amazon.com/images/I/6196cLFF1bL._AC_SX679_.jpg" class="produtos"><button class="b2compra">COMPRAR<span>R$3.799,99</span></button></li>
+        <li class="coisas-items"><span style="color: rgb(101, 155, 255);">Chaveiro Skibidi</span><img src="https://m.media-amazon.com/images/I/41DDkyxDksL._AC_SY500_.jpg" class="produtos"><button class="b2compra">COMPRAR<span>R$39,99</span></button></li>
+        <li class="coisas-items"><span style="color: rgb(101, 155, 255);">Lavadora de Alta Pressão</span><img src="https://m.media-amazon.com/images/I/51cUyhTpE3L.__AC_SX300_SY300_QL70_ML2_.jpg" class="produtos"><button class="b2compra">COMPRAR<span>R$599,99</span></button></li>
+        <li class="coisas-items"><span style="color: rgb(101, 155, 255);"> Capa de Chuva Motoquiro</span><img src="https://m.media-amazon.com/images/I/61TxmJuchzL._AC_SX569_.jpg" class="produtos"><button class="b2compra">COMPRAR<span>R$179,99</span></button></li>
     </ul>
 
     <footer id="contato">
@@ -73,14 +73,14 @@
                  <label >Reclamações ou Comentario</label>
                  <input type="text" class="coment">
                  <label>Email</label>
-                 <input type="email" class="mail">
+                 <input type="email" class="email" id="email">
                  <button class="env">Enviar</button>
             </form>
         </div>
         <div class="lscont">
-            <H1 class="contato">Email: lojagenerica@gmail.com</H1>
-            <H1 class="contato">Telefone: (00) 12345-6789</H1>
-            <h1 class="contato">Localização: local geenrico</h1>
+            <H1 class="contatos">lojagenerica@gmail.com</H1>
+            <H1 class="contatos">(00) 12345-6789</H1>
+            <h1 class="contatos">Rua Genérica 9999</h1>
         </div>
     </footer>
 

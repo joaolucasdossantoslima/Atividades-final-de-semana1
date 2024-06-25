@@ -325,26 +325,88 @@ span{
        }
        ul{
         width: 100%;
-        gap: 20px;
         scale: 100%;
         justify-content: center;
         align-items: center;
        }
+       main{
+        width: 500px;
+        gap: 10px;
+       }
+       .lista-coisas{
+        display: grid;
+        justify-content: center;
+        width: 400px;  
+        grid-template-columns: repeat(auto-fill, 100px 100px 100px 100px);
+        gap: 20px;
+        height: 400px;     
+       }
+       .produtos{
+        width: 100px;
+        height: 100px;
+        justify-content: center;
+        display: flex;
+       } 
+       .b2compra{
+        width: 100px;
+        margin-left:0;
+        height: 40px;
+       }
+       span{
+        font-size: 10px;
+        display: inline;
+       }      
        .card{
-        width: 200px;
-        height: 26WS0px;
+        width: 150px;
+        height: 200px;
         animation-name: pulsar;
         animation-iteration-count: 0;
        }
        .card img{
-        width: 190px;
+        width: 140px;
         height: 90px;
-        margin-left: 6px
+        margin-left: 5px
+       }
+       .prom{
+        margin-left: 230px;
        }
        .bcompra{
-        width: 180px;
+        width: 130px;
+        margin-left: -350px;  
+        justify-content: center;  
+        }
+        .produto-nome{
+            font-size: 14px;
+        }
+        .preço{
+            margin-left: 60px;
+            font-size: 18px;
+        }
+        footer{
+            width: 500px;
+        }
+        form{
+            width: 200px;
+        }
+        label{
+            font-size: 20px;
+        }
+        .env{
+            width: 80px;
+            height: 60px;
+            margin-left: 20px;
+        }
+        .mail, .coment{
+            width: 200px;
+        }
+        .lscont{
+            width: 200px;
+        }
+        .contatos{
+            font-size: 18px;
+        }
     
     
-       }
+       
     
 }

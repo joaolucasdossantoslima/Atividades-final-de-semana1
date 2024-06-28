@@ -284,129 +284,97 @@ span{
     background-color: white;
     scale: 120%;
 }
-@media (max-width:500px){
-    *{
+@media (max-width:540px){
+    body{
         width: 500px;
     }
-    .cadr{
-        animation: pulsar;
-        animation-iteration-count: 0;
-
-       }
-       .b2compra:hover{
-        transform: rotateX(0deg);
-       }
-       .banner{
-        scale: 100%;
-        height: 200px;
-        justify-content: center;
-        
-       }
-       header{
-        position: relative;
-        height: 30px;
-        width: 100%;
-       }
-       .Titulo{
-        margin-left: 0;
-        display: flex;
-        font-size: 20px;
-        margin-top: 3%;
-        margin-left: 2%;
-       }
-       .menu{
-        font-size: 8px;
-        justify-content: center;
-        width: 30px;
-        margin-top: 8%;
-       }
-       .menu:first-child{
-        margin-left: 20%;
-       }
-       ul{
-        width: 100%;
-        scale: 100%;
-        justify-content: center;
-        align-items: center;
-       }
-       main{
+    header{
         width: 500px;
-        gap: 10px;
-       }
-       .lista-coisas{
+        height: 80px;
+        position: fixed;
+    }
+    .Titulo{
+        font-size: 18px;
+        margin: 0;
+        margin-left: 2px;
+    }
+    .lsnavega{
+        margin: 0;
+        gap: 2px;
+    }
+    .menu{
+        margin: 0;
+        font-size: 15px;
+    }
+    .menu:last-child{
+        margin-right: 10px;
+    }
+    main{
         display: grid;
-        justify-content: center;
-        width: 400px;  
-        grid-template-columns: repeat(auto-fill, 100px 100px 100px 100px);
-        gap: 20px;
-        height: 400px;     
-       }
-       .produtos{
-        width: 100px;
-        height: 100px;
-        justify-content: center;
+        grid-template-columns: 300px;
+        height: 1000px;
+        gap: 10px;
+    }
+    .banner{
+        width: 500px;
+        height: 300px;
         display: flex;
-       } 
-       .b2compra{
-        width: 100px;
-        margin-left:0;
-        height: 40px;
-       }
-       span{
-        font-size: 10px;
-        display: inline;
-       }      
-       .card{
-        width: 150px;
+        justify-content: center;
+        margin-top: 70px;
+    }
+    .bimgade{
+        width: 500px;
+        height: 300px;
+    }
+    .promocoes-image{
         height: 200px;
-        animation-name: pulsar;
-        animation-iteration-count: 0;
-       }
-       .card img{
-        width: 140px;
-        height: 90px;
-        margin-left: 5px
-       }
-       .prom{
-        margin-left: 230px;
-       }
-       .bcompra{
-        width: 130px;
-        margin-left: -350px;  
-        justify-content: center;  
-        }
-        .produto-nome{
-            font-size: 14px;
-        }
-        .preço{
-            margin-left: 60px;
-            font-size: 18px;
-        }
-        footer{
-            width: 500px;
-        }
-        form{
-            width: 200px;
-        }
-        label{
-            font-size: 20px;
-        }
-        .env{
-            width: 80px;
-            height: 60px;
-            margin-left: 20px;
-        }
-        .mail, .coment{
-            width: 200px;
-        }
-        .lscont{
-            width: 200px;
-        }
-        .contatos{
-            font-size: 18px;
-        }
+        width: 300px;
+    }
+    .card{
+        margin: 0;
+    }
+    .lista-coisas{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 200px 200px);
+    }
+    .produtos{
+        height: 200px;
+        width: 200px;
+    }
     
-    
-       
-    
+    .b2compra{
+        margin-left: 10%;
+    }
+    footer{
+        display: flex;
+    }
+    form{
+        width: 200px;
+        margin-left: 0;
+    }
+    .coment, .mail{
+        width: 200px;
+        height: 30px;
+    }
+    label{
+        font-size: 18px;
+    }
+    .env{
+        padding: 10px;
+        margin: auto;
+        margin-top: 2px;
+    }
+    .lscont{
+        display: flex;
+    }
+    .contatos{
+        font-size: 18px;
+    }
+    .prom{
+        position: absolute;
+        top: -28px;
+        left: 20%;
+        padding: 0;
+    }
+
 }
